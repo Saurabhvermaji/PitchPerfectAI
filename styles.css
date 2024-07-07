@@ -1,0 +1,457 @@
+html,
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* ================================================================= */
+#HeroSection {
+    position: relative;
+    width: 90%;
+    height: 120vh;
+    text-align: center;
+    background-color: #110A2B;
+    color: white;
+    border: 2px solid #000;
+    margin: 10px auto;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 70%, 0% 100%);
+    overflow: hidden;
+}
+
+#LogoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#LogoContainer img {
+    width: 3%;
+    padding: 10px;
+}
+
+#HeroSection h2 {
+    background-color: #FFDB5E;
+    color: #33256C;
+    font-weight: 800;
+    width: 50%;
+    margin: 20px auto;
+}
+
+#AIAbility {
+    width: 40%;
+    font-weight: 800;
+    margin: 10px auto;
+}
+
+.HeroImg1 {
+    display: none;
+}
+
+#HeroImg1C {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    border: 10px solid white;
+}
+
+#Sells {
+    color: #FF5811;
+    text-decoration: underline;
+}
+
+#win {
+    color: #FFEE58;
+    text-decoration: underline;
+}
+
+/* ============================================================================ */
+
+.Bookcontainer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 20px;
+    background-color: #221E3A;
+    color: white;
+    width: 80%;
+    overflow: hidden;
+}
+
+.item {
+    margin: 10px 0;
+}
+
+.BookImgContainer {
+    flex: 3;
+}
+
+.BookImgContainer img {
+    max-width: 100%;
+}
+
+.BookContentContainer {
+    flex: 7;
+    padding: 20px;
+}
+
+.BookContentContainer h4:nth-child(1) {
+    border-radius: 5px;
+    font-weight: 700;
+    margin: 0;
+    padding: 10px;
+    background-color: #FFDB5E;
+    color: #31286B;
+}
+
+#LimitedTime {
+    color: #FF5811;
+}
+
+#newclients {
+    color: #FFEE58;
+}
+
+.CartContainer {
+    display: flex;
+    align-items: center;
+    background-color: #FF5811;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.CartContainer img {
+    width: 5%;
+    margin-left: 40px;
+}
+
+.CartContentContainer {
+    margin: 5px 15px;
+}
+
+.CartContentContainer h2 {
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.CartContentContainer h4 {
+    padding: 0;
+    margin: 0 14px;
+}
+
+.CardContainer {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.CardContainer img {
+    width: 10%;
+    margin-top: 30px;
+}
+
+.CardContentContainer img {
+    width: 30%;
+    margin-left: 10px;
+}
+
+.CardContentContainer h2 {
+    margin: 0 10px;
+}
+
+#Warning {
+    color: #FFDB5E;
+    font-weight: 700;
+}
+
+/* ============================================================================ */
+.FC {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.FCC {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.FCC img {
+    border-radius: 5px;
+}
+
+#S3I1,
+#S3I3 {
+    max-width: 50%;
+}
+
+#S3I2,
+#S3I4 {
+    max-width: 34%;
+}
+
+/* ============================================================================ */
+.S3 {
+    width: 88%;
+    margin: 10px auto;
+    background: linear-gradient(#221E3A, #43349D);
+    color: white;
+}
+
+.S3CA,
+.S3CB {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.S3CA h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.S3CA h2 {
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.S3CA span {
+    color: #FF5811;
+    text-decoration: underline;
+}
+
+.S3CA p {
+    font-size: 1rem;
+}
+
+.S3CB {
+    display: flex;
+    flex-direction: column;
+}
+
+.S3CBCA,
+.S3CBCB {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.S3CBCBox {
+    flex: 1;
+    margin: 10px 10px;
+    border-radius: 8px;
+    background: linear-gradient(#221E3A, #43349D);
+}
+
+.BCC {
+    text-align: center;
+}
+
+.BCCIC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.BCCIC img {
+    width: 6%;
+}
+
+.BCCICP {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.BCCD {
+    width: 80%;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin: 5px auto;
+}
+
+.BCCI {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* ============================================================================ */
+
+
+@media (max-width: 1024px) {
+    .Bookcontainer {
+        flex-direction: column;
+        padding: 0;
+        border-radius: 10px;
+    }
+
+    .BookImgContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .BookImgContainer img {
+        max-width: 70%;
+    }
+
+    .BookContentContainer {
+        padding: 0px 20px;
+    }
+
+    .BookContentContainer h4:nth-child(1) {
+        text-align: center;
+        font-weight: 0;
+        font-size: 10px;
+        margin: 0;
+        white-space: nowrap;
+    }
+
+    .BookContentContainer p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .CartContainer {
+        white-space: nowrap;
+        margin-top: 10px;
+    }
+
+    .CartContainer img {
+        width: 10%;
+        margin-left: 5px;
+    }
+
+    .CartContentContainer {
+        margin: 5px 0px;
+    }
+
+    .CartContentContainer h2 {
+        font-size: 11px;
+    }
+
+    .CartContentContainer h4 {
+        padding: 0;
+        margin: 0 5px;
+        font-size: 9px;
+    }
+
+
+    .CardContainer img {
+        width: 15%;
+        margin-top: 20px;
+
+    }
+
+    .CardContentContainer img {
+        width: 60%;
+    }
+
+    .CardContentContainer h2 {
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+
+    /* =============================================== */
+    #HeroSection {
+        width: 85%;
+        height: auto;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%);
+        padding: 10px;
+    }
+
+    #LogoContainer {
+        padding: 0;
+    }
+
+    #LogoContainer img {
+        width: 5%;
+    }
+
+    #LogoContainer h1 {
+        font-size: 15px;
+    }
+
+    #HeroSection h2 {
+        font-weight: 800;
+        width: 75%;
+        font-size: 1rem;
+        margin: 20px auto;
+    }
+
+    #AIAbility {
+        width: 65%;
+        font-size: 1rem;
+        font-weight: 800;
+        margin: 10px auto;
+    }
+
+    #HeroSection p {
+        font-size: 1rcap;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .HeroImg1 {
+        display: inline;
+        width: 60%;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+
+    #HeroImg1C {
+        display: none;
+    }
+
+    #Sells {
+        color: #FF5811;
+        text-decoration: underline;
+    }
+
+    #win {
+        color: #FFEE58;
+        text-decoration: underline;
+    }
+
+    /* =============================================== */
+
+    .S3CBCA,
+    .S3CBCB {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .S3CA {
+        margin: 10px;
+    }
+
+    .S3CA h1 {
+        font-size: 1.5rem;
+    }
+
+    .S3CA h2 {
+
+        font-size: 1.1rem;
+        margin: 0;
+    }
+
+    .S3CA span {
+        color: #FF5811;
+        text-decoration: underline;
+    }
+
+    .S3CA p {
+        font-size: 1rcap;
+    }
+
+}
